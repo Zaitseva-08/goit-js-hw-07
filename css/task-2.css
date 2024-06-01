@@ -1,0 +1,20 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+      }
+  
+  li {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+  
+  .img-item {
+    width: 360px;
+    height: 300px;
+    
+  
+  }
