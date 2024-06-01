@@ -1,4 +1,3 @@
- document.addEventListener('DOMContentLoaded', () => {
 
         const categoriesList = document.querySelectorAll('#categories .item')
     
@@ -12,4 +11,3 @@
             console.log(`Elements: ${elementsCount.length}`)
         })
         
-    })
